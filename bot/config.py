@@ -1,7 +1,3 @@
-# (c) @AbirHasan2005
-
-from bot.get_cfg import get_config
-
 class Config(object):
     # You can keep this default
     SESSION_NAME = "AHCompressorBot"
@@ -10,13 +6,13 @@ class Config(object):
     # get a token from @BotFather
     TG_BOT_TOKEN = "2135958158:AAGC1SbbROpYpT_wAtXLBNyzjKBqLQPxYrg"
     # The Telegram API things
-    APP_ID = "3881325"
+    APP_ID = 3881325
     API_HASH = "1ebf12e67222683abe1c01f0209b79df"
     LOG_CHANNEL = "-1001778730930"
     UPDATES_CHANNEL = "Tech_MasterZ"
      # Get these values from my.telegram.org
     # array to store the channel ID who are authorized to use the bot
-    AUTH_USERS = "1412909688"
+    AUTH_USERS = 1412909688
     # the download location, where the HTTP Server runs
     DOWNLOAD_LOCATION = get_config("DOWNLOAD_LOCATION", "/app/downloads")
     # Telegram maximum file upload size
